@@ -81,6 +81,7 @@ public class UserController {
                 "User deleted successfully", HttpStatus.OK.value()));
     }
 
+    //searching user
     @GetMapping("/search")
     public ResponseEntity<APIResponse> searchUsers(@RequestParam String keyword) {
         List<UserDTO> users = userService.searchUsers(keyword);

@@ -85,6 +85,11 @@ public class UserService {
     }
 
     public List<UserDTO> searchUsers(String keyword) {
+
+        if(keyword.isEmpty()) {
+            throw new IllegalArgumentException("Keyword cannot be empty");
+        }
+
         return userRepository.findByFullNameContainingIgnoreCase(keyword)
                 .stream()
                 .map(userDTOMapper)
