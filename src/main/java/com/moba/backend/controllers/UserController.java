@@ -32,6 +32,7 @@ public class UserController {
     public ResponseEntity<APIResponse> registerUser(
             @Valid @RequestBody UserRegistrationRequest request) {
 
+        // This line was deleted by mistake but reverted
         log.info("Creating new user with email: {}", request.getEmail());
         userService.addUser(request);
 
@@ -39,7 +40,7 @@ public class UserController {
                 "User created successfully",
                 HttpStatus.CREATED.value()
         );
-
+        System.out.println("Registered user with email: " + request.getEmail());
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 

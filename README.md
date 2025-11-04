@@ -42,7 +42,14 @@ Each feature branch contains **at least three meaningful commits**, such as:
 - Added self-review comments and resolved discussions.
 - Merged PRs after approval.
 
-📸 *Screenshots of merged PRs and discussions were included in the repository.*
+# 📸 *Screenshots of merged PRs and discussions were included in the repository.*
+![img.png](img.png)
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
 
 ---
 
