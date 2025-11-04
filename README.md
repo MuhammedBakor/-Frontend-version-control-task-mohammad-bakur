@@ -14,7 +14,7 @@ The goal was to demonstrate practical skills in repository management, branching
 ---
 
 ## 🏗️ Project Setup
-- Repository Name: `backend-version-control-task-[YourName]`
+- Repository Name: `backend-version-control-task-mohammad-bakur`
 - Description:  
   A hands-on version control task showcasing my understanding of Git workflows using a Spring Boot project developed in previous weeks.
 
@@ -23,8 +23,8 @@ The goal was to demonstrate practical skills in repository management, branching
 ## 🌿 Branching Strategy
 | Branch Name | Purpose |
 |--------------|----------|
-| `feature-user-tests` | Added improvements and documentation for UserController and UserService tests |
-| `feature-teacher-tests` | Added repository test cases for TeacherRepository |
+| `feature-user` | Added improvements and documentation for UserController and UserService tests |
+| `feature-teacher` | Added repository test cases for TeacherRepository |
 | `main` | Production-ready code after PR reviews and merges |
 
 ---
@@ -91,6 +91,5 @@ Strengthened collaboration habits for real-world projects.
 
 This module improved my collaboration and version control workflow understanding.
 The Git-based approach ensures code integrity, traceability, and team efficiency.
-
 
 
