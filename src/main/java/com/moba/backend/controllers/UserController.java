@@ -32,6 +32,7 @@ public class UserController {
     public ResponseEntity<APIResponse> registerUser(
             @Valid @RequestBody UserRegistrationRequest request) {
 
+        log.info("Creating new user with email: {}", request.getEmail());
         userService.addUser(request);
 
         APIResponse response = new APIResponse(
