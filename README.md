@@ -94,9 +94,3 @@ The Git-based approach ensures code integrity, traceability, and team efficiency
 
 
 
-
-
-
-
-git add .
-git commit -m "Initial commit - upload week 10 project"
