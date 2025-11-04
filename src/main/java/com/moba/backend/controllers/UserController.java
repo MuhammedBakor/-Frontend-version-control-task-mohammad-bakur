@@ -40,7 +40,7 @@ public class UserController {
                 "User created successfully",
                 HttpStatus.CREATED.value()
         );
-
+        System.out.println("Registered user with email: " + request.getEmail());
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
