@@ -43,7 +43,13 @@ Each feature branch contains **at least three meaningful commits**, such as:
 - Merged PRs after approval.
 
 📸 *Screenshots of merged PRs and discussions were included in the repository.*
+![img.png](img.png)
 
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
 ---
 
 ## 🔁 Reversion & Branch Renaming
