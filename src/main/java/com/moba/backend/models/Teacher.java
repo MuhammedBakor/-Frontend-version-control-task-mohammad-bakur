@@ -39,7 +39,8 @@ public class Teacher {
     @JoinColumn(name = "user_id")
     private UserData user;
 
-    @ManyToMany() //Bidirectional
+    //Bidirectional relationship with a subject
+    @ManyToMany()
     @JoinTable(
             name = "teacher_subjects",
             joinColumns = @JoinColumn(name = "teacher_id"),

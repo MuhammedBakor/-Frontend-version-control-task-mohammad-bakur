@@ -7,5 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Set;
 
 public interface TeacherRepository extends JpaRepository<Teacher,Integer> {
+
+    //To see if teacher has a subjects
     long countBySubjectsContaining(Subject subject);
 }
